@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Hebra Hilados</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/images/logoindex.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+    <!-- Logo Hebra -->
+    <img src="/images/logonegrohebra.png" alt="Logo Hebra Hilados" width="400" height="300" class="logo__resto"/>
+    <nav>
+          <a href="/pages/cambioydevolucion.html" target="blank_" class="nav__buttons">POLITICA DE CAMBIO Y DEVOLUCION</a>
+          <a href="/pages/contactanos.html" class="nav__buttons"es>CONTACTANOS</a>
+          <a href="../index.html" class="nav__buttons" target="_blank">INICIO</a>
+          <a href="comocomprar.html" class="nav__buttons" target="_blank">COMO COMPRAR?</a>
+          <a href="preguntasfrecuentes.html" class="nav__buttons" target="_blank">PREGUNTAS FRECUENTES</a>
+          <br />
+    </nav>
+    <section class="linea1"></section>
+    <h1 class="h1contacto">Contacto</h1>
+    </header>
+    <section>
+      
+    <form action="procesar_form.php" method="post" enctype="text/plain" class="contact__form">
+    <fieldset>
+      <div>
+        <legend>Correo Electronico</legend>
+        <label for="correo"></label>
+        <input type="text" name="selecciona" />
+      </div>
+      <br />
+      <div>
+        <label for="apellido">Nombre</label>
+        <br />
+        <input type="text" name="nombre" class="input__nombre" />
+      </div>
+      <br />
+      <div>
+        <legend>Numero de Telefono</legend>
+        <label for="correo"></label>
+        <input type="text" name="selecciona" />
+      </div>
+      <br />
+      <div>
+        <form>
+          <label for="talles">Motivo del mensaje:</label>
+          <select name="selecciona" class="motivo__mens">
+
+            <option value="L">Mi pedido no llego</option>
+            <option value="M">No me llegó lo que solicité</option>
+            <option value="S">Mi pedido llegó dañado</option>
+            <option value="X">Otro</option>
+          </select>
+        </form>
+        <br />
+      </div>
+      <div>
+        <label for="mensaje" class="text__area__algomas">¿Querés agregar algo mas?</label>
+        <br>
+        <textarea name="mensaje" id="" cols="30" rows="10" ></textarea>
+      </div>
+      <br>
+      <div class="submit__reset">
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Borrar" />
+    </div>
+    </fieldset>
+  </section>
+  </form>
+
+    <iframe
+      class="mapahebra"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8172483236567!2d-58.54695828481211!3d-34.65931798044511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc87b61f6800b%3A0xb781416248238803!2sHebra%20Hilados!5e0!3m2!1ses-419!2sar!4v1674360527967!5m2!1ses-419!2sar"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <footer>
+      <div class="footerline__contact">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="mailto:hebrahilados@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <p class="copyright__contact"> © 2023 Hebra Hilados. Todos los derechos reservados.</p>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave__contact">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,122.7C672,128,768,192,864,197.3C960,203,1056,149,1152,144C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </footer>
+    
+  </body>
+</html>
