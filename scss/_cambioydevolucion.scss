@@ -1,0 +1,107 @@
+/* Cambio y Devoluciones */
+
+.titulo__devoluciones {
+  padding-left: 72%;
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+
+  .texto__devoluciones {
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .posibles__opciones {
+    margin-top: 2rem;
+    margin-left: 137px;
+    margin-bottom: 14px;
+    font-size: 23px;
+    width: 445px;
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+.flexbox__padre__devoluciones {
+  width: 50%;
+
+  .texto__devoluciones__flexpadre {
+    margin-left: 6.8rem;
+    width: 530px;
+    height: 350px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .segundo__parrafo__devoluciones {
+    margin-top: 15px;
+  }
+
+  .tercer__parrafo__devoluciones {
+    margin-top: 8px;
+  }
+
+  .devoluciones {
+    display: flex;
+  }
+}
+
+.correo__devoluciones {
+  text-decoration: none;
+  color: black;
+}
+
+.titulo__cambios {
+  padding-left: 86%;
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+
+  .texto__cambios__flex {
+    margin-left: 6.8rem;
+    width: 530px;
+    height: 350px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .dias__recibida {
+    margin-top: 2rem;
+    margin-left: 72px;
+    margin-bottom: 14px;
+    font-size: 23px;
+    width: 445px;
+    font-family: "Raleway", sans-serif;
+    width: 629px;
+  }
+
+  .todo__cambios {
+    width: 50%;
+  }
+
+  .segundo__parrafo__cambios {
+    margin-top: 15px;
+  }
+}
+
+.footerline__cambiodevolucion {
+  background-color: #6e5487;
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 1%;
+  margin-top: 10rem;
+  margin-bottom: 1.7rem;
+  padding-top: 0.5rem;
+
+  .copyright__cambiodevolucion {
+    padding-top: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    margin-left: 28.3rem;
+  }
+}

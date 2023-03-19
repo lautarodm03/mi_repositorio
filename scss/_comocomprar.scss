@@ -1,0 +1,100 @@
+/* Como Comprar */
+
+.como__comprar {
+  margin-top: 35px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+}
+
+.leer_instrucciones {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.texto__comocomprar {
+  margin-left: 1.2rem;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .parrafo__comocomprar {
+    margin-top: 10px;
+  }
+
+  .imagen__comocomprar {
+    margin-left: 1.5%;
+    height: 350px;
+    border-radius: 3%;
+    margin-top: 20px;
+  }
+
+  .parrafo__comocomprar__segundaparte {
+    margin-top: 10px;
+  }
+}
+
+.footer__comocomprar {
+  margin-top: 35rem;
+
+  .footerline__comocomprar2bs {
+    background-color: #6e5487;
+    width: 100%;
+    border-radius: 1%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-item {
+  margin-left: 110px;
+  color: #38023b;
+}
+
+.redes__comocomprar2bs {
+  text-decoration: underline;
+}
+
+.card {
+  width: 500px;
+
+  .container__tarjetas {
+    margin-top: 40px;
+  }
+
+  .card-title {
+    color: #38023b;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 768px) {
+  .imagen__comocomprar {
+    height: 300px;
+    width: 430px;
+    margin-left: 1%;
+  }
+}
+
+.h2__preguntasfrecuentes {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}

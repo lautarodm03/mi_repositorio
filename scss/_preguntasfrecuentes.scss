@@ -1,0 +1,61 @@
+/* Preguntas Frecuentes */
+
+.pregunta__general {
+  margin-left: 25px;
+  margin-bottom: 13px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 5rem;
+  font-size: 1.3rem;
+
+  .pregunta__general__imp {
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 1.3rem;
+  }
+
+  .primera__pregunta {
+    margin-top: 2.8rem;
+  }
+}
+
+.saber__antes__de__comprar {
+  margin-left: 5px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+
+  .titulo__antes__comprar {
+    margin-left: 18%;
+    font-size: 1.65rem;
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+.texto__preguntas {
+  margin-left: 12px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+.footerline__preguntasfrecuentes {
+  background-color: #6e5487;
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 1%;
+  margin-top: 1.7rem;
+  margin-bottom: 4rem;
+  padding-top: 0.5rem;
+
+  .post__footer_info_tarjetas {
+    margin-left: 30%;
+  }
+
+  .post__footer_info_data {
+    height: 150px;
+    margin-left: 5px;
+  }
+}
