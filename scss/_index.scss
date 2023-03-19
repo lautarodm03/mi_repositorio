@@ -1,0 +1,140 @@
+.logoindex {
+  width: 25rem;
+  height: 14rem;
+}
+
+.logo__resto {
+  width: 27rem;
+  height: 16;
+}
+
+.productosmuñecos {
+  color: blueviolet;
+}
+
+li {
+  list-style-type: none;
+}
+
+.actividad1 {
+  color: orange;
+}
+
+header {
+  text-align: center;
+}
+
+.linea1 {
+  background-color: #38023b;
+  height: 6px;
+  width: -60rem;
+  margin: 1rem;
+
+  .linea2 {
+    background-color: #38023b;
+    height: 16px;
+    width: 65rem;
+    margin: 1.8rem 23px;
+  }
+}
+
+.h1index {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-left: 10px;
+  color: #38023b;
+}
+
+.footerline {
+  background-color: #6e5487;
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 1%;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+  padding-top: 0.5rem;
+
+  .copyright {
+    margin-top: 3px;
+    text-align: center;
+    padding-top: 7.8px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+  }
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  line-height: 1.6;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.card {
+  color: white;
+  background-image: url("../images/lanas-card.JPG");
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 8000px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  height: 200px;
+
+  .card:hover,
+  .card:focus-within {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1.5rem;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  }
+
+  .card-content__title {
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+  }
+
+  .card-content__body {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  @media (hover) {
+    .card-content {
+      transform: translateY(65%);
+      transition: transform 500ms ease;
+    }
+    .card:hover .card-content {
+      transform: translateY(0);
+      transition-delay: 500ms;
+    }
+  }
+
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.2rem 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.5s ease;
+
+    .button:hover,
+    .button:focus {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  .intento__video__card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+}
