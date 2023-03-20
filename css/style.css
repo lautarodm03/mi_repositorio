@@ -1,4 +1,34 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav__buttons {
+  color: #38023b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #8f81b3;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
+    margin: auto;
+  }
+}
+/* 
+@media screen and (max-width: 768px) {
+  .nav__buttons {
+    font-size: 12px;
+  }
+} */
 /* Cambio y Devoluciones */
 .titulo__devoluciones {
   padding-left: 72%;
@@ -133,11 +163,14 @@
     width: 600px;
   }
 }
+/* 
 @media screen and (max-width: 768px) {
   .menu__responsive {
-    width: 400px;
+    width: 300px;
+    align-items: center;
   }
 }
+ */
 /* Como Comprar */
 body {
   display: grid;
@@ -241,8 +274,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .menu__responsive {
-    width: 400px;
+  #carouselExampleIndicators {
+    width: 300px;
+    margin-left: 145px;
+  }
+  .imagen__comocomprar {
+    width: 300px;
+    height: 250px;
+    margin-left: 130px;
   }
 }
 /* Contactanos */
@@ -327,33 +366,9 @@ form .contact__form {
   padding-left: 53.5rem;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .menu__responsive {
     width: 400px;
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.nav__buttons {
-  color: #38023b;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 15px;
-  margin-left: 10px;
-  text-decoration: none;
-}
-
-body {
-  background-color: #8f81b3;
-}
-
-/* 
-@media screen and (max-width: 768px) {
-  .nav__buttons {
-    font-size: 12px;
   }
 } */
 .body__index {
@@ -528,9 +543,9 @@ header {
   .embed-responsive-4by3 {
     margin-left: 10px;
   }
-  .menu__responsive {
+  /* .menu__responsive {
     width: 400px;
-  }
+  } */
 }
 /* Preguntas Frecuentes */
 .pregunta__general {
@@ -619,6 +634,7 @@ header {
 @media screen and (max-width: 768px) {
   .menu__responsive {
     width: 400px;
+    margin-left: 300px;
   }
 }
 

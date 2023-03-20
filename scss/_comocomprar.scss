@@ -106,7 +106,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .menu__responsive {
-    width: 400px;
+  #carouselExampleIndicators {
+    width: 300px;
+    margin-left: 145px;
+  }
+
+  .imagen__comocomprar {
+    width: 300px;
+    height: 250px;
+    margin-left: 130px;
   }
 }

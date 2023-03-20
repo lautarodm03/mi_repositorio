@@ -16,6 +16,13 @@ body {
   background-color: #8f81b3;
 }
 
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
+    margin: auto;
+  }
+}
+
 /* 
 @media screen and (max-width: 768px) {
   .nav__buttons {
