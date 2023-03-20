@@ -7,15 +7,11 @@
 .nav__buttons {
   color: #38023b;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 15;
+  font-size: 15px;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 body {
-  display: grid;
-  min-height: 100vh;
-  place-items: center;
   background-color: #8f81b3;
-  line-height: 1.6;
-  font-family: sans-serif;
 }

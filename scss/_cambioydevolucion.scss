@@ -94,14 +94,36 @@
   height: 3.5rem;
   width: 100%;
   border-radius: 1%;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 1.7rem;
   padding-top: 0.5rem;
 
   .copyright__cambiodevolucion {
-    padding-top: 10px;
+    padding-top: 6px;
     font-family: "Courier New", Courier, monospace;
     font-size: 1.2rem;
-    margin-left: 28.3rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
+}
+
+.linea1 {
+  background-color: #38023b;
+  height: 2px;
+  padding-left: 53.5rem;
+}
+
+.devolucion__titulo__centrado {
+  text-align: center;
+}
+
+.puede__gestionar {
+  width: 70rem;
+  margin-top: 10px;
+}
+
+.parametros__en__cuenta {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

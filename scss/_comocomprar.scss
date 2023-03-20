@@ -1,5 +1,14 @@
 /* Como Comprar */
 
+body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  background-image: linear-gradient(#8f81b3, #b65fc8, #e07bda, #f89bdd);
+  background-color: #8f81b3;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
 .como__comprar {
   margin-top: 35px;
   text-align: center;
@@ -40,15 +49,6 @@
 
 .footer__comocomprar {
   margin-top: 35rem;
-
-  .footerline__comocomprar2bs {
-    background-color: #6e5487;
-    width: 100%;
-    border-radius: 1%;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    padding-top: 0.5rem;
-  }
 }
 
 .container {
@@ -72,17 +72,21 @@
   text-decoration: underline;
 }
 
-.card {
-  width: 500px;
+.carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .container__tarjetas {
-    margin-top: 40px;
-  }
+.margin__comocomprar {
+  margin-top: 85px;
+  margin-left: 170px;
+  color: #38023b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-  .card-title {
-    color: #38023b;
-    text-decoration: underline;
-  }
+.list-unstyled {
+  text-decoration: none;
+  color: #38023b;
 }
 
 @media (max-width: 768px) {
@@ -90,6 +94,7 @@
     height: 300px;
     width: 430px;
     margin-left: 1%;
+    border-radius: 1%;
   }
 }
 
@@ -97,4 +102,10 @@
   margin-top: 20px;
   text-align: center;
   text-decoration: underline;
+}
+
+.linea1 {
+  background-color: #38023b;
+  height: 2px;
+  padding-left: 53.5rem;
 }
