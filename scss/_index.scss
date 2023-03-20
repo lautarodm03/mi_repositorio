@@ -64,15 +64,6 @@ header {
   }
 }
 
-body {
-  display: grid;
-  min-height: 100vh;
-  place-items: center;
-  line-height: 1.6;
-  background-color: black;
-  font-family: sans-serif;
-}
-
 .card,
 .index__card {
   color: white;

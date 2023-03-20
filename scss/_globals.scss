@@ -10,3 +10,12 @@
   font-size: 15;
   margin-left: 10px;
 }
+
+body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  background-color: #8f81b3;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
