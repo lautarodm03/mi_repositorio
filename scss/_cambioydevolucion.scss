@@ -127,3 +127,28 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .featured {
+    width: 370px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .copyright__cambiodevolucion {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
+  }
+}

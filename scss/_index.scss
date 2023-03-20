@@ -163,3 +163,22 @@ header {
     padding-right: 40px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .h1index {
+    font-size: 50px;
+  }
+
+  .intento__video__card {
+    width: 200px;
+    margin-left: 232px;
+  }
+
+  .embed-responsive-4by3 {
+    margin-left: 10px;
+  }
+
+  .menu__responsive {
+    width: 400px;
+  }
+}

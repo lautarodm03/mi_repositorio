@@ -117,6 +117,27 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .featured {
+    width: 370px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .copyright__cambiodevolucion {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
+  }
+}
 /* Como Comprar */
 body {
   display: grid;
@@ -219,6 +240,11 @@ body {
   padding-left: 53.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
+  }
+}
 /* Contactanos */
 body {
   background-color: #8f81b3;
@@ -301,6 +327,11 @@ form .contact__form {
   padding-left: 53.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -319,6 +350,12 @@ body {
   background-color: #8f81b3;
 }
 
+/* 
+@media screen and (max-width: 768px) {
+  .nav__buttons {
+    font-size: 12px;
+  }
+} */
 .body__index {
   display: grid;
   min-height: 100vh;
@@ -480,6 +517,21 @@ header {
     padding-right: 40px;
   }
 }
+@media screen and (max-width: 768px) {
+  .h1index {
+    font-size: 50px;
+  }
+  .intento__video__card {
+    width: 200px;
+    margin-left: 232px;
+  }
+  .embed-responsive-4by3 {
+    margin-left: 10px;
+  }
+  .menu__responsive {
+    width: 400px;
+  }
+}
 /* Preguntas Frecuentes */
 .pregunta__general {
   margin-left: 25px;
@@ -561,6 +613,12 @@ header {
 @media screen and (max-width: 768px) {
   .h2__preguntasfrecuentes {
     font-size: 14px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
   }
 }
 

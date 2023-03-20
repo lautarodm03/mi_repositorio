@@ -87,5 +87,12 @@
 @media screen and (max-width: 768px) {
   .h2__preguntasfrecuentes {
     font-size: 14px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__responsive {
+    width: 400px;
   }
 }
