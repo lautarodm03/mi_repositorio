@@ -199,11 +199,6 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.list-unstyled {
-  text-decoration: none;
-  color: #38023b;
-}
-
 @media (max-width: 768px) {
   .imagen__comocomprar {
     height: 300px;
@@ -400,7 +395,6 @@ header {
   font-size: 1.2rem;
 }
 
-.card,
 .index__card {
   color: white;
   background-image: url("../images/lanas-card.JPG");
@@ -532,21 +526,42 @@ header {
   font-size: 1rem;
 }
 
-.footerline__preguntasfrecuentes {
-  background-color: #6e5487;
-  height: 3.5rem;
-  width: 100%;
-  border-radius: 1%;
-  margin-top: 1.7rem;
-  margin-bottom: 4rem;
-  padding-top: 0.5rem;
-}
-.footerline__preguntasfrecuentes .post__footer_info_tarjetas {
+.post__footer_info_tarjetas {
   margin-left: 30%;
 }
-.footerline__preguntasfrecuentes .post__footer_info_data {
+
+.post__footer_info_data {
   height: 150px;
   margin-left: 5px;
+}
+
+.card {
+  color: black;
+}
+.card .card-text {
+  font-size: 13px;
+  color: #38023b;
+}
+.card .card-body {
+  background-color: #da898e;
+  border: black 3px dotted;
+}
+
+.contenedor__copy {
+  margin-top: 40px;
+  margin-left: 115px;
+}
+.contenedor__copy .redes__comocomprar2bs {
+  color: #38023b;
+}
+.contenedor__copy .list-unstyled {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .h2__preguntasfrecuentes {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

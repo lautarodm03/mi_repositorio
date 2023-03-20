@@ -48,21 +48,44 @@
   font-size: 1rem;
 }
 
-.footerline__preguntasfrecuentes {
-  background-color: #6e5487;
-  height: 3.5rem;
-  width: 100%;
-  border-radius: 1%;
-  margin-top: 1.7rem;
-  margin-bottom: 4rem;
-  padding-top: 0.5rem;
+.post__footer_info_tarjetas {
+  margin-left: 30%;
+}
 
-  .post__footer_info_tarjetas {
-    margin-left: 30%;
+.post__footer_info_data {
+  height: 150px;
+  margin-left: 5px;
+}
+
+.card {
+  color: black;
+
+  .card-text {
+    font-size: 13px;
+    color: #38023b;
   }
 
-  .post__footer_info_data {
-    height: 150px;
-    margin-left: 5px;
+  .card-body {
+    background-color: #da898e;
+    border: black 3px dotted;
+  }
+}
+
+.contenedor__copy {
+  margin-top: 40px;
+  margin-left: 115px;
+
+  .redes__comocomprar2bs {
+    color: #38023b;
+  }
+
+  .list-unstyled {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h2__preguntasfrecuentes {
+    font-size: 14px;
   }
 }
