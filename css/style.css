@@ -550,6 +550,11 @@ header {
     margin-left: 10px;
   }
 }
+@media screen and (max-width: 768px) {
+  .linea1 {
+    width: 100%;
+  }
+}
 /* Preguntas Frecuentes */
 .pregunta__general {
   margin-left: 25px;
