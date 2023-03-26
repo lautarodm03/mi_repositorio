@@ -16,19 +16,6 @@
 body {
   background-color: #8f81b3;
 }
-
-@media screen and (max-width: 768px) {
-  .menu__responsive {
-    width: 400px;
-    margin: auto;
-  }
-}
-/* 
-@media screen and (max-width: 768px) {
-  .nav__buttons {
-    font-size: 12px;
-  }
-} */
 /* Cambio y Devoluciones */
 .titulo__devoluciones {
   padding-left: 72%;
@@ -126,10 +113,9 @@ body {
   margin-right: 20rem;
 }
 
-.linea1 {
+.line {
   background-color: #38023b;
   height: 2px;
-  padding-left: 53.5rem;
 }
 
 .devolucion__titulo__centrado {
@@ -147,30 +133,6 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .featured {
-    width: 370px;
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .col-md-6 {
-    width: 380px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .copyright__cambiodevolucion {
-    width: 600px;
-  }
-}
-/* 
-@media screen and (max-width: 768px) {
-  .menu__responsive {
-    width: 300px;
-    align-items: center;
-  }
-}
- */
 /* Como Comprar */
 body {
   display: grid;
@@ -279,17 +241,6 @@ body {
   color: #38023b;
 }
 
-@media screen and (max-width: 768px) {
-  #carouselExampleIndicators {
-    width: 300px;
-    margin-left: 145px;
-  }
-  .imagen__comocomprar {
-    width: 300px;
-    height: 250px;
-    margin-left: 130px;
-  }
-}
 /* Contactanos */
 body {
   background-color: #8f81b3;
@@ -372,11 +323,6 @@ form .contact__form {
   padding-left: 53.5rem;
 }
 
-/* @media screen and (max-width: 768px) {
-  .menu__responsive {
-    width: 400px;
-  }
-} */
 .body__index {
   display: grid;
   min-height: 100vh;
@@ -389,12 +335,10 @@ form .contact__form {
 
 .logoindex {
   width: 25rem;
-  height: 14rem;
 }
 
 .logo__resto {
   width: 27rem;
-  height: 16;
 }
 
 .productosmuñecos {
@@ -527,34 +471,52 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  .copyright {
-    font-size: 12.5px;
+  *{
+    font-size: 50%;
   }
-}
-@media screen and (max-width: 768px) {
+
+  .menu__responsive {
+    width: 400px;
+    margin: auto;
+  }
+  .featured {
+    width: 370px;
+    margin-left: 20px;
+  }
+.col-md-6 {
+    width: 380px;
+  }
+.copyright__cambiodevolucion {
+    width: 600px;
+  }
+#carouselExampleIndicators {
+    width: 300px;
+  }
+  .imagen__comocomprar {
+    width: 300px;
+    height: 250px;
+  }
+
   .embed-responsive-4by3 {
     height: 400px;
     width: 350px;
     padding-right: 40px;
   }
-}
-@media screen and (max-width: 768px) {
+  .copyright {
+    font-size: 12.5px;
+  }
   .h1index {
     font-size: 50px;
   }
   .intento__video__card {
     width: 200px;
-    margin-left: 232px;
   }
   .embed-responsive-4by3 {
     margin-left: 10px;
   }
-}
-@media screen and (max-width: 768px) {
   .linea1 {
     width: 100%;
   }
-}
 /* Preguntas Frecuentes */
 .pregunta__general {
   margin-left: 25px;
@@ -572,13 +534,6 @@ header {
 }
 .pregunta__general .primera__pregunta {
   margin-top: 2.8rem;
-}
-
-.linea1 {
-  background-color: #38023b;
-  height: 15px;
-  width: 45rem;
-  margin: 1rem;
 }
 
 .saber__antes__de__comprar {
@@ -632,18 +587,13 @@ header {
 .contenedor__copy .list-unstyled {
   color: black;
 }
-
-@media screen and (max-width: 768px) {
-  .h2__preguntasfrecuentes {
-    font-size: 14px;
-    margin-left: 20px;
-  }
+.h2__preguntasfrecuentes {
+  font-size: 14px;
+  margin-left: 20px;
 }
-@media screen and (max-width: 768px) {
-  .menu__responsive {
-    width: 400px;
-    margin-left: 300px;
-  }
+.menu__responsive {
+  width: 400px;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
