@@ -128,9 +128,10 @@ body {
 }
 
 .parametros__en__cuenta {
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Como Comprar */
@@ -191,7 +192,8 @@ body {
 
 .navbar-brand {
   font-size: 22px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .nav-item {
@@ -216,6 +218,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .pasos__compra__comocomprar {
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
   .imagen__comocomprar {
     height: 300px;
     width: 430px;
@@ -470,9 +478,31 @@ header {
   margin-top: 10px;
 }
 
+.card {
+  color: black;
+}
+.card-text {
+  font-size: 13px;
+  color: #38023b;
+}
+
+.card-body {
+  background-color: #da898e;
+  border: black 3px dotted;
+}
+
+.copyright__cambiodev {
+  margin-top: 25px;
+}
+
 @media screen and (max-width: 768px) {
-  *{
-    font-size: 50%;
+  * {
+    font-size: 9.5px;
+  }
+
+  .copyright__cambiodev {
+    text-align: center;
+    margin-top: 25px;
   }
 
   .menu__responsive {
@@ -480,16 +510,14 @@ header {
     margin: auto;
   }
   .featured {
-    width: 370px;
+    /* width: 370px; */
     margin-left: 20px;
   }
-.col-md-6 {
+  .col-md-6 {
     width: 380px;
   }
-.copyright__cambiodevolucion {
-    width: 600px;
-  }
-#carouselExampleIndicators {
+
+  #carouselExampleIndicators {
     width: 300px;
   }
   .imagen__comocomprar {
@@ -517,83 +545,101 @@ header {
   .linea1 {
     width: 100%;
   }
-/* Preguntas Frecuentes */
-.pregunta__general {
-  margin-left: 25px;
-  margin-bottom: 13px;
-  font-family: "Raleway", sans-serif;
-  margin-top: 5rem;
-  font-size: 1.3rem;
-}
-.pregunta__general .pregunta__general__imp {
-  margin-left: 25px;
-  margin-bottom: 13px;
-  font-family: "Raleway", sans-serif;
-  margin-top: 50px;
-  font-size: 1.3rem;
-}
-.pregunta__general .primera__pregunta {
-  margin-top: 2.8rem;
-}
+  /* Preguntas Frecuentes */
+  .pregunta__general {
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 5rem;
+    font-size: 1.3rem;
+  }
 
-.saber__antes__de__comprar {
-  margin-left: 5px;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  font-family: "Raleway", sans-serif;
-}
-.saber__antes__de__comprar .titulo__antes__comprar {
-  margin-left: 18%;
-  font-size: 1.65rem;
-  font-family: "Raleway", sans-serif;
-}
+  .container__tarjetas {
+    width: 1200px;
+    height: 450px;
+    overflow: scroll;
+  }
+  .card-deck {
+    width: 1200px;
+    height: 450px;
+    overflow: scroll;
+  }
+  .pregunta__general .pregunta__general__imp {
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    font-size: 1.3rem;
+  }
+  .pregunta__general .primera__pregunta {
+    margin-top: 2.8rem;
+  }
 
-.texto__preguntas {
-  margin-left: 12px;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-}
+  .saber__antes__de__comprar {
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+  }
+  .saber__antes__de__comprar .titulo__antes__comprar {
+    margin-left: 18%;
+    font-size: 1.65rem;
+    font-family: "Raleway", sans-serif;
+  }
 
-.post__footer_info_tarjetas {
-  margin-left: 30%;
-}
+  .texto__preguntas {
+    margin-left: 12px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+  }
 
-.post__footer_info_data {
-  height: 150px;
-  margin-left: 5px;
-}
+  .post__footer_info_tarjetas {
+    margin-left: 30%;
+  }
 
-.card {
-  color: black;
-}
-.card .card-text {
-  font-size: 13px;
-  color: #38023b;
-}
-.card .card-body {
-  background-color: #da898e;
-  border: black 3px dotted;
-}
+  .post__footer_info_data {
+    height: 150px;
+    margin-left: 5px;
+  }
 
-.contenedor__copy {
-  margin-top: 40px;
-  margin-left: 115px;
-}
-.contenedor__copy .redes__comocomprar2bs {
-  color: #38023b;
-}
-.contenedor__copy .list-unstyled {
-  color: black;
-}
-.h2__preguntasfrecuentes {
-  font-size: 14px;
-  margin-left: 20px;
-}
-.menu__responsive {
-  width: 400px;
-}
+  .card {
+    color: black;
+  }
+  .card .card-text {
+    font-size: 13px;
+    color: #38023b;
+  }
+  .card .card-body {
+    background-color: #da898e;
+    border: black 3px dotted;
+  }
+
+  .contenedor__copy {
+    margin-top: 40px;
+    margin-left: 115px;
+  }
+  .contenedor__copy .redes__comocomprar2bs {
+    color: #38023b;
+  }
+  .contenedor__copy .list-unstyled {
+    color: black;
+  }
+  .h2__preguntasfrecuentes {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .menu__responsive {
+    width: 400px;
+  }
+  .index__card {
+    margin-left: -35px;
+    width: 340px;
+  }
+  .embed-responsive-4by3 {
+    margin-left: -32px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
