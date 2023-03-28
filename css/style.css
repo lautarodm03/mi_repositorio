@@ -187,7 +187,15 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  margin-bottom: 2.5rem;
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 993px) {
+  .container {
+    margin-top: 3rem;
+    overflow: scroll;
+  }
 }
 
 .navbar-brand {
@@ -545,7 +553,9 @@ header {
   .linea1 {
     width: 100%;
   }
+
   /* Preguntas Frecuentes */
+
   .pregunta__general {
     margin-left: 25px;
     margin-bottom: 13px;
@@ -555,36 +565,14 @@ header {
   }
 
   .container__tarjetas {
-    width: 1200px;
+    width: 1000px;
     height: 450px;
-    overflow: scroll;
   }
   .card-deck {
-    width: 1200px;
-    height: 450px;
+    width: 1500rem;
+    height: 550px;
     overflow: scroll;
-  }
-  .pregunta__general .pregunta__general__imp {
-    margin-left: 25px;
-    margin-bottom: 13px;
-    font-family: "Raleway", sans-serif;
-    margin-top: 50px;
-    font-size: 1.3rem;
-  }
-  .pregunta__general .primera__pregunta {
-    margin-top: 2.8rem;
-  }
-
-  .saber__antes__de__comprar {
-    margin-left: 5px;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    font-family: "Raleway", sans-serif;
-  }
-  .saber__antes__de__comprar .titulo__antes__comprar {
-    margin-left: 18%;
-    font-size: 1.65rem;
-    font-family: "Raleway", sans-serif;
+    /* margin-top: 25rem; */
   }
 
   .texto__preguntas {
@@ -593,15 +581,6 @@ header {
     margin-bottom: 40px;
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
-  }
-
-  .post__footer_info_tarjetas {
-    margin-left: 30%;
-  }
-
-  .post__footer_info_data {
-    height: 150px;
-    margin-left: 5px;
   }
 
   .card {
@@ -639,6 +618,13 @@ header {
   }
   .embed-responsive-4by3 {
     margin-left: -32px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100rem;
+    margin-left: 500px;
   }
 }
 
