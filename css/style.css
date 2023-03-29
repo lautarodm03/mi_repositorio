@@ -194,7 +194,6 @@ body {
 @media screen and (max-width: 993px) {
   .container {
     margin-top: 3rem;
-    overflow: scroll;
   }
 }
 
@@ -623,8 +622,9 @@ header {
 
 @media screen and (max-width: 575px) {
   .container {
-    width: 100rem;
-    margin-left: 500px;
+    width: 50rem;
+    justify-items: center;
+    /*  margin-left: 1%; */
   }
 }
 
